@@ -31,7 +31,7 @@
                     <?php
                       if ($_SERVER["REQUEST_METHOD"] == "POST") {
                           // Koneksi ke database
-                        $conn = new mysqli("localhost", "u193767157_bilikbecakap", "Kbkm.senyubuk2023", "u193767157_kata_belitung");
+                        $conn = new mysqli("localhost", "#", "#", "u193767157_kata_belitung");
 
                           if ($conn->connect_error) {
                               die("Koneksi database gagal: " . $conn->connect_error);
